@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Untitled</title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  HTML
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Event Management</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+
+<h1>Fashion & Tech Events</h1>
+
+<select onchange="filterEvents(this.value)">
+
+<option value="all">All Categories</option>
+
+<option value="fashion">Fashion</option>
+
+<option value="tech">Tech</option>
+
+<option value="workshop">Workshop</option>
+
+</select>
+
+</header>
+
+<main>
+
+<section id="eventList" class="event-grid">
+
+<!-- Events will be loaded here -->
+
+</section>
+
+<section class="registration">
+
+<h2>Register for an Event</h2>
+
+<form onsubmit="registerEvent(); return false;">
+
+<label>Name: <input type="text" id="name" required></label>
+
+<label>Email: <input type="email" id="email" required></label>
+
+<label>Event Name: <input type="text" id="eventName" required></label>
+
+<button type="submit">Register</button>
+
+</form>
+
+<div id="confirmation"></div>
+
+</section>
+
+</main>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
+    <script  src="./script.js"></script>
+
+  </body>
+  
+</html>
